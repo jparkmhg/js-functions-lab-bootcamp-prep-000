@@ -2,8 +2,8 @@
 function happyHolidays(string) {
   return "Happy holidays!"
 }
-var name = ${name}
+var name = `${name}`
 function happyHolidaysTo(name)(string) {
-  if (string === ${name}) {
+  if (string === `${name}`) {
     return `Happy holidays, ${name}!`
   }
