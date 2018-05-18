@@ -2,7 +2,7 @@
 function happyHolidays(string) {
   return "Happy holidays!"
 }
-function happyHolidaysTo(string) {
+function happyHolidaysTo(name)(string) {
   if (string === $(name)) {
     return `Happy holidays, ${name}!`
   }
